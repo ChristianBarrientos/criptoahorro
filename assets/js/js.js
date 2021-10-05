@@ -32,3 +32,8 @@ function playAudio(){
     audio.play();   
 }
 
+
+
+$(window).on('load', function() {
+    $('#myModal').modal('show');
+});
